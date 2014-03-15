@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadTestProject", "LoadTestProject\LoadTestProject.csproj", "{BED13316-671E-4969-9954-88240A3AB7E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA1692BC-C19D-4254-A89E-0BC4C03BE0E9}"
+	ProjectSection(SolutionItems) = preProject
+		Cloud.testsettings = Cloud.testsettings
+		LoadTestingWebApp.vsmdi = LoadTestingWebApp.vsmdi
+		Local.testsettings = Local.testsettings
+		LocalPerRowInDatasource.testsettings = LocalPerRowInDatasource.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadTestWebApp", "LoadTestWebApp\LoadTestWebApp.csproj", "{438D742C-801A-43A7-ACE7-D0E09E42BE5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadTestWebApp.Domain", "LoadTestDomain\LoadTestWebApp.Domain.csproj", "{551C4F05-E098-4D86-8EA9-B4CE9CD3A881}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadTestProject.Plugins", "LoadTestProject.Plugins\LoadTestProject.Plugins.csproj", "{27595C3E-A9CC-4A7F-BC05-79EF2A8F3E0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudTesting", "CloudTesting\CloudTesting.csproj", "{6DBDFCBE-D26F-4BD7-AE99-ED2C828B1031}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BED13316-671E-4969-9954-88240A3AB7E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED13316-671E-4969-9954-88240A3AB7E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED13316-671E-4969-9954-88240A3AB7E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED13316-671E-4969-9954-88240A3AB7E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{438D742C-801A-43A7-ACE7-D0E09E42BE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{438D742C-801A-43A7-ACE7-D0E09E42BE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{438D742C-801A-43A7-ACE7-D0E09E42BE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{438D742C-801A-43A7-ACE7-D0E09E42BE5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{551C4F05-E098-4D86-8EA9-B4CE9CD3A881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{551C4F05-E098-4D86-8EA9-B4CE9CD3A881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{551C4F05-E098-4D86-8EA9-B4CE9CD3A881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{551C4F05-E098-4D86-8EA9-B4CE9CD3A881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27595C3E-A9CC-4A7F-BC05-79EF2A8F3E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27595C3E-A9CC-4A7F-BC05-79EF2A8F3E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27595C3E-A9CC-4A7F-BC05-79EF2A8F3E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27595C3E-A9CC-4A7F-BC05-79EF2A8F3E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DBDFCBE-D26F-4BD7-AE99-ED2C828B1031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBDFCBE-D26F-4BD7-AE99-ED2C828B1031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBDFCBE-D26F-4BD7-AE99-ED2C828B1031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBDFCBE-D26F-4BD7-AE99-ED2C828B1031}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = LoadTestingWebApp.vsmdi
+	EndGlobalSection
+EndGlobal
