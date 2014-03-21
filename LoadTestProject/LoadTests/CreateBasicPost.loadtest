@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LoadTest Name="CreateBasicPost" Description="" Owner="" storage="c:\dev\skyline\dev sandbox\loadtestingwebapp\loadtestproject\loadtests\createbasicpost.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Run Settings - Iteration" Id="339a8425-3693-4020-8284-ec5e31e64e94" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+<LoadTest Name="CreateBasicPost" Description="" Owner="" storage="c:\dev\skyline\dev sandbox\loadtestingwebapp\loadtestproject\loadtests\createbasicpost.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Run Settings - Duration" Id="339a8425-3693-4020-8284-ec5e31e64e94" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
   <Scenarios>
     <Scenario Name="Scenario1" DelayBetweenIterations="0" PercentNewUsers="0" IPSwitching="true" TestMixType="PercentageOfTestsStarted" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
       <ThinkProfile Value="0.2" Pattern="NormalDistribution" />
       <LoadProfile Pattern="Constant" InitialUsers="5" />
       <InitializeTest>
-        <TestProfile Name="Login" Path="..\webtests\login.webtest" Id="5190434c-1084-4642-9c2c-b9bd5880b8c5" Percentage="0.0" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="Login" Path="..\webtests\login.webtest" Id="e1b55959-e42e-4e4c-83ae-bae52f308825" Percentage="0.0" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
       </InitializeTest>
       <TestMix>
         <TestProfile Name="CreateBasicPost" Path="..\webtests\createbasicpost.webtest" Id="b957819e-4be6-4915-83cf-4644fc6d97c5" Percentage="100" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />

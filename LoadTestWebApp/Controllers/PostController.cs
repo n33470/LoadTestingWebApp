@@ -122,6 +122,19 @@ namespace LoadTestingWebApp.Controllers
             return RedirectToAction("Index");
         }
 
+        public ActionResult DeleteRecentPosts()
+        {
+            var cutoffTime = DateTime.Now.AddHours(-1);
+            var newPosts = db.Posts.Where(p => p.UpdateDate.CompareTo(cutoffTime) > 0);
+            foreach (var newPost in newPosts)
+            {
+                db.Posts.Remove(newPost);
+            }
+            db.SaveChanges();
+
+            return View("Index", db.Posts.ToList());
+        }
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)
