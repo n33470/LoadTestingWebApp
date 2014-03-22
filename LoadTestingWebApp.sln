@@ -8,7 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA1692BC-C19D-4254-A89E-0BC4C03BE0E9}"
 	ProjectSection(SolutionItems) = preProject
 		Cloud.testsettings = Cloud.testsettings
-		..\..\..\..\Users\snelson\Documents\Skyline\Load Testing Presentation\Load Testing with Visual Studio.pptx = ..\..\..\..\Users\snelson\Documents\Skyline\Load Testing Presentation\Load Testing with Visual Studio.pptx
+		Load Testing with Visual Studio.pptx = Load Testing with Visual Studio.pptx
 		LoadTestingWebApp.vsmdi = LoadTestingWebApp.vsmdi
 		Local.testsettings = Local.testsettings
 		LocalPerRowInDatasource.testsettings = LocalPerRowInDatasource.testsettings
